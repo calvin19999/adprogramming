@@ -1,5 +1,5 @@
 import math
-
+math.sin(1.0)
 radius_str = input("Enter the radius of your circle: ")
 radius_int=int(radius_str)
 
