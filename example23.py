@@ -14,3 +14,8 @@ class Account:
    
   self.balance += amount
   
+ def withdraw (self, amount):
+  if amount < Decimal ('0.00'):
+   raise ValueError ('amounr must be positive')
+   
+  self.balance -= amount
